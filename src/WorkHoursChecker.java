@@ -13,7 +13,7 @@ public class WorkHoursChecker {
         try {
             int workedHours = 140;
             checkHours(workedHours);
-            System.out.println("Gratulacje! Przepracowałeś wystarczającą liczbę godzin.");
+            System.out.println("Przepracowałeś wystarczającą liczbę godzin.");
         } catch (InsufficientHoursException e) {
             System.out.println("Błąd: " + e.getMessage());
         }
